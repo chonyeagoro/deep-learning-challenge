@@ -58,4 +58,15 @@ How many neurons, layers, and activation functions did you select for your neura
 For my neural netwrk model, I used 
 
 Were you able to achieve the target model performance?
+
+- No. I tried more than three times and the best I could get was an accuracy of 0.7305 (73.05%)
+  
 What steps did you take in your attempts to increase model performance?
+
+I did the following:
+I increased the epoch 
+
+
+## Summary
+
+Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
