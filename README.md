@@ -65,6 +65,8 @@ For the 2nd try:
 For the 3rd try:
 - Used 3 hidden layers and an outer layer, layer 1: 250 neurons, relu activation, layer 2: 100 neurons, relu activations, layer 3: 100 neurons, relu activations and Outer layer: 1 unit, sigmoid activation & adam optimizers for complier.
 
+For the 2nd and 3rd tries, I used an additional layer and increased the number of neurons and epoches because I believed it would aid in increasing the accuracy. 
+
 Were you able to achieve the target model performance?
 
 - No. I tried more than three times and the best I could get was an accuracy of 0.7306 (73.06%)
@@ -78,3 +80,5 @@ I tried using diffrent number of layers (ex: using three layers instead of two),
 ## Summary
 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+
