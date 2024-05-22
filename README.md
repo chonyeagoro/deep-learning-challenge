@@ -76,9 +76,12 @@ What steps did you take in your attempts to increase model performance?
 I tried using diffrent number of layers (ex: using three layers instead of two), used different values for the units (ex: set hidden_nodes_layer1 = 80 , then set hidden_nodes_layer1 = 250) & epochs (ex: used 100, then used 200 epochs) . 
 
 
-
 ## Summary
 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+
+In summarize, the model provided to you, AlphabetSoupCharity_Optimization.ipynb does not achieve an accuracy of approximately 75% on the test data. A recommendation that can be given is that we could conduct more experimintation. For instance we could increase the number of hidden layers in order to try and increase the accuracy of the model in addition to changeing the layers' activation from to more than just 'relu' and 'sigmoid'. 
+
 
 
