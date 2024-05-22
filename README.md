@@ -55,16 +55,24 @@ What variable(s) should be removed from the input data because they are neither 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-For my neural netwrk model, I used 
+For the 1st try:
+
+- Used 2 hidden layers and an outer layer, layer 1: 80 neurons, relu activation, layer 2: 30 neurons, relu activations, and Outer layer: 1 unit, sigmoid activation & adam optimizers for complier.
+
+For the 2nd try: 
+- Used 3 hidden layers and an outer layer, layer 1: 223 neurons, relu activation, layer 2: 37 neurons, relu activations, layer 3: 37 neurons, relu activations and Outer layer: 1 unit, sigmoid activation & adam optimizers for complier.
+
+For the 3rd try:
+- Used 3 hidden layers and an outer layer, layer 1: 250 neurons, relu activation, layer 2: 100 neurons, relu activations, layer 3: 100 neurons, relu activations and Outer layer: 1 unit, sigmoid activation & adam optimizers for complier.
 
 Were you able to achieve the target model performance?
 
-- No. I tried more than three times and the best I could get was an accuracy of 0.7305 (73.05%)
+- No. I tried more than three times and the best I could get was an accuracy of 0.7306 (73.06%)
   
 What steps did you take in your attempts to increase model performance?
 
-I did the following:
-I increased the epoch 
+I tried using diffrent number of layers (ex: using three layers instead of two), used different values for the units (ex: set hidden_nodes_layer1 = 80 , then set hidden_nodes_layer1 = 250) & epochs (ex: used 100, then used 200 epochs) . 
+
 
 
 ## Summary
